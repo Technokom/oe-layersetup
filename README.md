@@ -6,7 +6,7 @@
 
 Для Ubuntu необходимо поставить следующие пакеты:
 ```
-sudo apt-get install git build-essential python diffstat texinfo gawk chrpath dos2unix wget unzip socat doxygen libc6:i386 libncurses5:i386 libstdc++6:i386 libz1:i386
+sudo apt-get install git build-essential python diffstat texinfo gawk chrpath dos2unix wget unzip socat doxygen libc6:i386 libncurses5:i386 libstdc++6:i386 libz1:i386 libc6-dev-i386 gcc-multilib g++-multilib
 ```
 
 Переконфигурировать shell на bash
